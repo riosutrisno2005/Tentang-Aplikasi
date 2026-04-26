@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayo Belajar - Aplikasi AIJ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #eef2f7;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            max-width: 750px;
+            width: 100%;
+            background: white;
+            border-radius: 28px;
+            box-shadow: 0 20px 35px -10px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            text-align: center;
+            padding: 30px 28px 40px;
+        }
+
+        /* Tempat gambar icon aplikasi - di atas tengah */
+        .icon-area {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 24px;
+        }
+
+        .icon-placeholder {
+            width: 110px;
+            height: 110px;
+            background-color: #f0f4fe;
+            border-radius: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 18px rgba(0, 0, 0, 0.05);
+            border: 1px solid #e0e8f0;
+            overflow: hidden;
+        }
+
+        .app-icon {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .title {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #0a2b44;
+            margin-bottom: 12px;
+            letter-spacing: -0.3px;
+        }
+
+        .tagline {
+            font-size: 1rem;
+            color: #2c6e9e;
+            background: #e9f2f9;
+            display: inline-block;
+            padding: 5px 16px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        .description {
+            text-align: left;
+            background: #f9fbfd;
+            padding: 22px 26px;
+            border-radius: 24px;
+            margin: 20px 0 28px;
+            line-height: 1.65;
+            color: #1f2d3d;
+            font-size: 1rem;
+            border: 1px solid #eef2f8;
+        }
+
+        .description p {
+            margin-bottom: 12px;
+        }
+
+        .credit {
+            margin-top: 12px;
+            font-size: 0.85rem;
+            color: #5d6f83;
+            border-top: 1px solid #e6edf4;
+            padding-top: 20px;
+        }
+
+        @media (max-width: 500px) {
+            .card {
+                padding: 20px 18px;
+            }
+            .icon-placeholder {
+                width: 85px;
+                height: 85px;
+                border-radius: 24px;
+            }
+            .title {
+                font-size: 1.6rem;
+            }
+            .description {
+                padding: 16px 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- Tempat gambar icon aplikasi di atas tengah -->
+        <div class="icon-area">
+            <div class="icon-placeholder">
+                <!-- Ganti src="..." dengan file gambar icon aplikasi Anda -->
+                <!-- Contoh: "icon-ayobelajar.png" atau "logo.png" -->
+                <img class="app-icon" src="https://placehold.co/400x400/2c6e9e/white?text=AB" alt="Icon Aplikasi Ayo Belajar">
+                <!-- Catatan: ganti URL di atas dengan gambar icon asli Anda -->
+            </div>
+        </div>
+
+        <h1 class="title">Ayo Belajar</h1>
+        <div class="tagline">Administrasi Infrastruktur Jaringan (AIJ)</div>
+
+        <div class="description">
+            <p>Selamat datang di aplikasi <strong>Ayo Belajar</strong>, solusi praktis untuk menguasai materi Administrasi Infrastruktur Jaringan (AIJ). Aplikasi ini hadir untuk membantu siswa kelas XI TKJ SMK Swasta Nusa Indah agar dapat belajar secara fleksibel tanpa batasan ruang dan waktu.</p>
+            <p>Di dalam aplikasi ini, tersedia berbagai fitur unggulan seperti <strong>materi pembelajaran</strong> yang mudah dipahami, <strong>video penjelasan</strong> yang interaktif, serta <strong>kuis latihan</strong> untuk menguji pemahaman. Dikembangkan oleh <strong>Rio Sutrisno</strong>, aplikasi ini diharapkan dapat menjadi teman belajar setia yang membuat proses memahami jaringan komputer menjadi lebih menyenangkan dan menarik.</p>
+        </div>
+
+        <div class="credit">
+            Dikembangkan oleh Rio Sutrisno | SMK Swasta Nusa Indah
+        </div>
+    </div>
+</body>
+</html>
